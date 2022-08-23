@@ -1,0 +1,15 @@
+<%- | String $image,
+      String $image_tag,
+| -%>
+#!/bin/bash
+
+set -e
+
+exec docker run \
+  --network=host \
+  -v /etc/puppetlabs/puppet/ssl:/etc/puppetlabs/puppet/ssl:ro \
+  -v /etc/puppetlabs/puppetserver/ca:/etc/puppetlabs/puppetserver/ca:ro \
+  -v /etc/hammer/cli.modules.d/foreman.yml:/etc/hammer/cli.modules.d/foreman.yml:ro \
+  -v /etc/hammer/cli.modules.d/foreman_puppet.yml:/etc/hammer/cli.modules.d/foreman_puppet.yml:ro \
+  -v /root/.hammer:/root/.hammer:ro \
+  <%= $image %>:<%= $image_tag %> $@
