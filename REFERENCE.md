@@ -18,10 +18,10 @@ Install foreman_envsync
 
 The following parameters are available in the `foreman_envsync` class:
 
-* [`image`](#image)
-* [`image_tag`](#image_tag)
+* [`image`](#-foreman_envsync--image)
+* [`image_tag`](#-foreman_envsync--image_tag)
 
-##### <a name="image"></a>`image`
+##### <a name="-foreman_envsync--image"></a>`image`
 
 Data type: `String[1]`
 
@@ -29,7 +29,7 @@ OCI image to use
 
 Default value: `'lsstit/foreman_envsync'`
 
-##### <a name="image_tag"></a>`image_tag`
+##### <a name="-foreman_envsync--image_tag"></a>`image_tag`
 
 Data type: `String[1]`
 
