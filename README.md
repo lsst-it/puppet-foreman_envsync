@@ -16,7 +16,7 @@ Manage `foreman_envsync`.
 This module installs a wrapper script to execute
 [`foreman_envsync`](https://github.com/lsst-it/foreman_envsync) as an OCI
 container.  The default OCI image used is
-[`lsstit/foreman_envsync`](https://hub.docker.com/r/lsstit/foreman_envsync).
+[`ghcr.io/lsst-it/foreman_envsync`](ghcr.io/lsst-it/foreman_envsync).
 
 ## Usage
 

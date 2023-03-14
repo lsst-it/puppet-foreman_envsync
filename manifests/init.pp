@@ -9,7 +9,7 @@
 #   OCI image tag to use
 #
 class foreman_envsync (
-  String[1] $image = 'lsstit/foreman_envsync',
+  String[1] $image = 'ghcr.io/lsst-it/foreman_envsync',
   String[1] $image_tag = 'latest',
 ) {
   $params = {
