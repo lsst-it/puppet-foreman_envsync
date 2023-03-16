@@ -1,6 +1,6 @@
 {
   "name": "lsst-foreman_envsync",
-  "version": "1.2.0",
+  "version": "1.2.1-rc0",
   "author": "AURA/LSST/Rubin Observatory",
   "summary": "Manage foreman_envsync",
   "license": "Apache-2.0",
