@@ -4,7 +4,15 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v1.1.0](https://github.com/lsst-it/puppet-foreman_envsync/tree/v1.1.0) (2023-01-30)
+## [v1.2.0](https://github.com/lsst-it/puppet-foreman_envsync/tree/v1.2.0) (2023-03-16)
+
+[Full Changelog](https://github.com/lsst-it/puppet-foreman_envsync/compare/v1.1.0...v1.2.0)
+
+**Implemented enhancements:**
+
+- migrate from hub.docker.com -\> ghcr.io [\#7](https://github.com/lsst-it/puppet-foreman_envsync/pull/7) ([jhoblitt](https://github.com/jhoblitt))
+
+## [v1.1.0](https://github.com/lsst-it/puppet-foreman_envsync/tree/v1.1.0) (2023-01-31)
 
 [Full Changelog](https://github.com/lsst-it/puppet-foreman_envsync/compare/v1.0.0...v1.1.0)
 
