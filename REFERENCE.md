@@ -27,7 +27,7 @@ Data type: `String[1]`
 
 OCI image to use
 
-Default value: `'lsstit/foreman_envsync'`
+Default value: `'ghcr.io/lsst-it/foreman_envsync'`
 
 ##### <a name="-foreman_envsync--image_tag"></a>`image_tag`
 
